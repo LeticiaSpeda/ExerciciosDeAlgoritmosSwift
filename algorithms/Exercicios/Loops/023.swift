@@ -3,15 +3,12 @@
 import Foundation
 
 func exercicio023() {
+    let number = 10
     
-    var number = 10
-//   var contagem = number - 1
     for i in 0...number {
       print(10 - i)
       sleep(1)
-        
     }
-    
 }
   
 

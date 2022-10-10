@@ -13,9 +13,9 @@ import Foundation
 
 // Criacao final
 func exercicio029() {
-    let childrenPrice:Int = 14
-    let adultPrice:Int = 23
-    let oldPeoplePrice:Int = 18
+    let childrenPrice = 14
+    let adultPrice = 23
+    let oldPeoplePrice = 18
     var sum = 0
 
     while true {
@@ -26,13 +26,10 @@ func exercicio029() {
         let isOldPeopleRange = (age >= 65)
         
         if isChildrenRange {
-            print("Valor de Entrada: R$ \(childrenPrice),00")
             sum = sum + childrenPrice
         } else if isAdultRange {
-            print("Valor de Entrada: R$ \(adultPrice),00")
             sum = sum + adultPrice
         } else if isOldPeopleRange {
-            print("Valor de Entrada: R$ \(oldPeoplePrice),00")
             sum = sum + oldPeoplePrice
         }
     }

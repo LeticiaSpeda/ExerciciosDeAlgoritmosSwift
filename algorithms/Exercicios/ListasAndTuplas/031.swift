@@ -1,6 +1,6 @@
 /*Crie um programa em que peça 10 números reais, armazene-os em uma
  lista e diga qual é o índice do maior, e seu valor
-*/
+ */
 
 import Foundation
 
